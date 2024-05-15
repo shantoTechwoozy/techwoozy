@@ -25,10 +25,13 @@ const Hero = () => {
                 </span>
               </h1>
               <p>
-              TechWoozy is a leading IT & digital marketing agency dedicated to helping businesses thrive in the ever-evolving digital landscape. 
-With a team of experienced professionals and a passion for innovation, 
-we not only specialize in crafting tailored software support to ensure seamless operations but also digital marketing solutions to meet the unique needs of our clients.
-
+                TechWoozy is a leading IT & digital marketing agency dedicated
+                to helping businesses thrive in the ever-evolving digital
+                landscape. With a team of experienced professionals and a
+                passion for innovation, we not only specialize in crafting
+                tailored software support to ensure seamless operations but also
+                digital marketing solutions to meet the unique needs of our
+                clients.
               </p>
 
               <div className="mt-10">

@@ -2,8 +2,8 @@ import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Docs Page - Solid SaaS Boilerplate",
-  description: "This is Docs page for Solid Pro",
+  title: "Docs Page - Tech Woozy",
+  description: "This is Docs page for Tech Woozy",
   // other metadata
 };
 
@@ -23,7 +23,7 @@ export default function DocsPage() {
 
             <div className="w-full px-4 lg:w-3/4">
               <div className="blog-details blog-details-docs shadow-three dark:bg-gray-dark rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-                <h1>Welcome to Startup Documentation</h1>
+                <h1>Welcome to Tech Woozy</h1>
 
                 <p className="text-body-color dark:text-body-color-dark text-base">
                   This document serves as a simple template to showcase a sample

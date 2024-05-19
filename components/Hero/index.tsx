@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                🔥 Tech Woozy - IT & Digital Marketing Solutions
+                🔥 Tech Woozy LLC - IT & Digital Marketing Solutions
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
                 Empowering Digital Success and {"   "}
@@ -25,9 +25,11 @@ const Hero = () => {
                 </span>
               </h1>
               <p>
-                TechWoozy is a leading IT & digital marketing agency dedicated
-                to helping businesses thrive in the ever-evolving digital
-                landscape. With a team of experienced professionals and a
+                TechWoozy LLC is a leading IT & digital marketing company
+                dedicated to helping businesses thrive in the ever-evolving
+                digital landscape. As a limited liability company, we protect
+                individuals from the company's financial losses and debt
+                liabilities. With a team of experienced professionals and a
                 passion for innovation, we not only specialize in crafting
                 tailored software support to ensure seamless operations but also
                 digital marketing solutions to meet the unique needs of our

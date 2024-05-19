@@ -27,14 +27,14 @@ const featuresData: Feature[] = [
     icon: "/images/icon/icon-04.jpg",
     title: "Content making & Writing",
     description:
-      "we excel in creating engaging blog posts, captivating image and video content, and eye-catching banner designs, tailored to elevate your brand's online presence.",
+      "We create engaging blog posts, captivating multimedia content, and striking banner designs to boost your brand's online presence. Utilizing tools like HubSpot AI, Ahrefs, and Google Trends, we ensure high-quality, relevant content.",
   },
   {
     id: 5,
     icon: "/images/icon/icon-05.jpg",
     title: "Graphics & UI/UX Design",
     description:
-      "Graphics Design & UI/UX Design services that elevate user experiences with innovative and captivating visuals, setting your brand apart in the digital world.",
+      "Graphics Design & UI/UX Design services where we specialize in delivering top-tier services, creating visually stunning designs and intuitive interfaces to ensure consistent branding and high-quality output across diverse platforms and projects.",
   },
   {
     id: 6,

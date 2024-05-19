@@ -2,22 +2,20 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import AboutDM from "./aboutdm";
 
-const About = () => {
+const AboutDM = () => {
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
       <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
-          <div className="flex items-center gap-8 lg:gap-32.5">
+          <div className="flex flex-col items-center gap-8 md:flex-row-reverse lg:gap-32.5">
             <motion.div
               variants={{
                 hidden: {
                   opacity: 0,
                   x: -20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -48,7 +46,6 @@ const About = () => {
                   opacity: 0,
                   x: 20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -60,21 +57,16 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_right md:w-1/2"
             >
-              <span className="font-medium uppercase text-black dark:text-white">
-                <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
-                  Tech Woozy LLC
-                </span>{" "}
-              </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                A Complete Solution for
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
-                  IT Support Training and Placement
-                </span>
+                Marketing & Designing
+                {/* <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
+                 
+                </span> */}
               </h2>
               <p>
-                Our comprehensive software support & digital marketing solutions
-                ensures your operations run smoothly and efficiently, enhancing
-                overall performance.
+                We also provide digital marketing solutions, and graphic design
+                services ensure your operations run smoothly and efficiently,
+                enhancing overall performance.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
@@ -85,37 +77,15 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="text-metatitle4 mb-0.5 text-black dark:text-white">
-                    Software Development-(Web & Mobile Frameworks)
+                    Digital Marketing
                   </h3>
                   <p className="text-xs">
-                    TechWoozy LLC excel's in leveraging JavaScript/TypeScript
-                    frameworks like React, Angular, and Vue, alongside native
-                    authentication tools, to integrate RESTful APIs and develop
-                    custom APIs. Proficient in Figma for efficient design
-                    workflows, our expertise extends to various languages and
-                    modern web/mobile technologies for scalable solutions, with
-                    a strong foundation in data structures and algorithms.
-                  </p>
-                </div>
-              </div>
-              <div className="mt-7.5 flex items-center gap-5">
-                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
-                  <p className="text-metatitle4 font-semibold text-black dark:text-white">
-                    02
-                  </p>
-                </div>
-                <div className="w-3/4">
-                  <h3 className="text-metatitle4 mb-0.5 text-black dark:text-white">
-                    Software Testing
-                  </h3>
-                  <p className="text-xs">
-                    Techwoozy LLC excels in software testing, offering expertise
-                    in web and mobile testing tools like Selenium WebDriver and
-                    Appium. We cover Agile/Scrum and SDLC/STLC processes,
-                    delivering quality assurance across various testing types,
-                    from smoke and regression testing to performance and user
-                    acceptance testing processes and various testing types,
-                    ensuring top-notch quality assurance for your projects.
+                    TechWoozy LLC is dedicated to innovation and seamless
+                    operations. Our experienced team specializes in tailored
+                    software support and digital marketing solutions. Leveraging
+                    top marketing tools, including email marketing, social
+                    media, analytics, CRM, website testing, lead capture, and
+                    SEO, we ensure success in the digital landscape.
                   </p>
                 </div>
               </div>
@@ -127,15 +97,36 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="text-metatitle4 mb-0.5 text-black dark:text-white">
-                    IT Training and Placement
+                    Graphics Design & UI/UX Design
                   </h3>
                   <p className="text-xs">
-                    Embark on a career journey with TechWoozy LLC's IT Training
-                    and Placement program. Master web and mobile testing,
-                    automation frameworks, and programming languages like Java
-                    and Python. Gain hands-on experience with tools like
-                    Selenium WebDriver and Jenkins, and unlock job opportunities
-                    abroad. Join us to accelerate your IT career today!
+                    Techwoozy LLC provides exceptional Graphic Design & UI/UX
+                    Design services, crafting captivating visuals and
+                    user-friendly interfaces. With expertise in Canva,
+                    Photoshop, After Effects, Illustrator, and Figma, from
+                    branding, developing differernt projects content to social
+                    media graphics, we ensure high-quality output identity
+                    across various platforms.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-7.5 flex items-center gap-5">
+                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+                  <p className="text-metatitle4 font-semibold text-black dark:text-white">
+                    03
+                  </p>
+                </div>
+                <div className="w-3/4">
+                  <h3 className="text-metatitle4 mb-0.5 text-black dark:text-white">
+                    Content Writing
+                  </h3>
+                  <p className="text-xs">
+                    We excel in crafting engaging blog posts, captivating
+                    multimedia content, and eye-catching banner designs to
+                    elevate your brand's online presence. Our content research
+                    leverages free tools like HubSpot AI Content Writer, Ahrefs’
+                    Keyword Generator, Google Trends, and Google Search Console,
+                    ensuring top-notch quality and relevance.
                   </p>
                 </div>
               </div>
@@ -144,18 +135,17 @@ const About = () => {
         </div>
       </section>
       {/* <!-- ===== About End ===== --> */}
-      <AboutDM />
+
       {/* <!-- ===== About Two Start ===== --> */}
       <section>
         <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
-          <div className="flex items-center gap-8 lg:gap-32.5">
+          <div className="flex flex-col items-center gap-8 md:flex-row-reverse lg:gap-32.5">
             <motion.div
               variants={{
                 hidden: {
                   opacity: 0,
                   x: -20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -171,7 +161,7 @@ const About = () => {
                 Launch Your SaaS Fast
               </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Packed with All Essential {"   "}
+                Packed with All Essential{" "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
                   Integrations
                 </span>
@@ -205,7 +195,6 @@ const About = () => {
                   opacity: 0,
                   x: 20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -238,4 +227,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutDM;

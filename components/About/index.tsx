@@ -168,7 +168,7 @@ const About = () => {
               className="animate_left md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
-                Launch Your SaaS Fast
+                Launch Your Business Fast
               </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
                 Packed with All Essential {"   "}
@@ -177,8 +177,11 @@ const About = () => {
                 </span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                TechWoozy LLC offers comprehensive solutions, from software
+                development to digital marketing, ensuring seamless operations
+                and accelerated growth. Our integrated tools and expert guidance
+                empower your business to scale efficiently and achieve
+                unparalleled success. Follow us for full roadmap to growth.
               </p>
               <div>
                 <a

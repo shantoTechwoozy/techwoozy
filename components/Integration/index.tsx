@@ -13,7 +13,7 @@ const Integration = () => {
             headerInfo={{
               title: `INTEGRATIONS`,
               subtitle: `Remotely Maintain Your Data, From Anywhere, Anytime.`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              description: ` Techwoozy LLC empower businesses to seamlessly manage their data with our cutting-edge integrations. Our solutions ensure that you can access, update, and maintain your data securely from any location, at any time. Stay ahead with real-time data management, robust security, and unparalleled convenience.`,
             }}
           />
 

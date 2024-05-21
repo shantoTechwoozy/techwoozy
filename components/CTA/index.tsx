@@ -32,9 +32,12 @@ const CTA = () => {
                 Join With Us Today & Increase Your Productivity
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                convallis tortor eros. Donec vitae tortor lacus. Phasellus
-                aliquam ante in maximus.
+                Partner with Techwoozy LLC and boost your productivity with our
+                innovative solutions. Our expert team leverages the latest
+                technologies to streamline your operations, enhance efficiency,
+                and drive growth. Experience the difference with Techwoozy's
+                tailored strategies and state-of-the-art tools designed to take
+                your business to the next level.
               </p>
             </motion.div>
             <motion.div

@@ -26,14 +26,14 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         viewport={{ once: true }}
         className="animate_top z-40 rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark"
       >
-        <div className="relative w-full h-[200px] rounded-[5px] overflow-hidden">
+        <div className="relative h-[200px] w-full overflow-hidden rounded-[5px]">
           <Image
             src={icon}
             layout="responsive"
             width={240}
             height={140}
             alt={title}
-            className="w-full h-auto object-cover"
+            className="h-auto w-full object-cover"
           />
         </div>
         <h3 className="mb-5 mt-7.5 text-xl font-semibold text-black dark:text-white xl:text-itemtitle">
